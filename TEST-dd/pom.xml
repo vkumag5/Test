@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.pearson.qglobal.api</groupId>
 		<artifactId>qglobal-api-TEST</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>qglobal-api-TEST-deployment-descriptor</artifactId>
