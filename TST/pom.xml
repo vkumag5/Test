@@ -3,14 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.pearson.qglobal.api</groupId>
-		<artifactId>qglobal-api-TEST</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<artifactId>qglobal-api-TST</artifactId>
+		<version>1.0.7-SNAPSHOT</version>
 	</parent>
 
 
 	
-	<artifactId>TEST</artifactId>
+	<artifactId>TST</artifactId>
          <packaging>jar</packaging>
-        <name>TEST</name>
+        <name>TST</name>
 	
 </project>

@@ -3,26 +3,25 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.pearson.qglobal.api</groupId>
-		<artifactId>qglobal-api-TEST</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<artifactId>qglobal-api-TST</artifactId>
+		<version>1.0.7-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>qglobal-api-TEST-deployment-descriptor</artifactId>
-	<name>qglobal-api-TEST-deployment-descriptor</name>
+	<artifactId>qglobal-api-TST-deployment-descriptor</artifactId>
+	<name>qglobal-api-TST-deployment-descriptor</name>
              <packaging>jar</packaging>
 			 
 			 <ciManagement>            
 		<system>Jenkins</system>		
-		<url>http://releng.ic.ncs.com/jenkins/view/QGlobal/view/QGlobal%20Apps/view/Platform/job/QGlobal%20Platform_API%20-%20TEST</url>	             
+		<url>http://releng.ic.ncs.com/jenkins/view/QGlobal/view/QGlobal%20Apps/view/Platform/job/QGlobal%20Platform_API%20-%20WMS-IV</url>	             
 	</ciManagement>	
 	
-<scm>
-		 		  <connection>scm:git:ssh://git@bitbucket.pearson.com/qgapi/test.git</connection>	
-		<developerConnection>scm:git:ssh://git@bitbucket.pearson.com/qgapi/test.git</developerConnection>
-		<url>https://devops-tools.pearson.com/stash/scm/qgapi/ktea-3.git</url>
 
-
-    <tag>qglobal-api-TEST-1.0.20</tag>
+ <scm>
+	<connection>scm:git:git@github.com:vkumag5/wms.git</connection>
+	<url>scm:git:git@github.com:vkumag5/wms.git</url>
+	<developerConnection>scm:git:git@github.com:vkumag5/wms.git</developerConnection>
+	<tag>HEAD</tag>
   </scm>
   
 	<build>
@@ -39,11 +38,11 @@
 				</execution>
 			  </executions>
 			  <configuration>
-				<id>TEST</id>
+				<id>TST</id>
 				<dependencies>
 					<dependency>
 						<groupId>com.pearson.qglobal.api</groupId>
-						<artifactId>TEST</artifactId>
+						<artifactId>TST</artifactId>
 						<version>${project.version}</version>
 						<type>domain-config-jar</type>
 					</dependency>

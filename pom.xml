@@ -3,27 +3,37 @@
 	<modelVersion>4.0.0</modelVersion>
 
 		<groupId>com.pearson.qglobal.api</groupId>
-		<artifactId>qglobal-api-TEST</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<artifactId>qglobal-api-TST</artifactId>
+		<version>1.0.7-SNAPSHOT</version>
 		<packaging>pom</packaging>
-	   <name>QGlobal API - TEST</name>
+	   <name>QGlobal API - TST</name>
 	<ciManagement>            
 		<system>Jenkins</system>		
-		<url>http://releng.ic.ncs.com/jenkins/view/QGlobal/view/QGlobal%20Apps/view/Platform/job/QGlobal%20Platform_API%20-%20TEST</url>	             
+		<url>http://releng.ic.ncs.com/jenkins/view/QGlobal/view/QGlobal%20Apps/view/Platform/job/QGlobal%20Platform_API%20-</url>	             
 	</ciManagement>	
-	
-<scm>
-		 		  <connection>scm:git:ssh://git@bitbucket.pearson.com/qgapi/test.git</connection>	
-		<developerConnection>scm:git:ssh://git@bitbucket.pearson.com/qgapi/test.git</developerConnection>
-		<url>https://devops-tools.pearson.com/stash/scm/qgapi/ktea-3.git</url>
 
-
-    <tag>qglobal-api-TEST-1.0.20</tag>
+ <scm>
+	<connection>scm:git:git@github.com:vkumag5/wms.git</connection>
+	<url>scm:git:git@github.com:vkumag5/wms.git</url>
+	<developerConnection>scm:git:git@github.com:vkumag5/wms.git</developerConnection>
+	<tag>HEAD</tag>
   </scm>
+
+
+
+	
+<!--<scm>
+		<connection>scm:git:ssh://git@github.com:vkumag5/wms.git</connection>	
+		<developerConnection>scm:git:ssh://git@github.com:vkumag5/wms.git</developerConnection>
+		<url>https://bitbucket.pearson.com/projects/QGAPI/repos/.git</url>
+
+ <tag>HEAD</tag>
+  </scm>
+  -->
   
 	<modules>
-		<module>TEST</module>
-	    <module>TEST-dd</module>
+		<module>TST</module>
+	    <module>TST-dd</module>
 	</modules>
 
 	
